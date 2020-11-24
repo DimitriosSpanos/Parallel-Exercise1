@@ -24,3 +24,7 @@ The **make_graph.c** works like the previous ones, as follows.
 ```
 ./make_graph matrix.mtx
 ```
+
+
+
+Repo for the first exercise of course 050 - Parallel and Distributed Systems, Aristotle University of Thessaloniki, Dpt. of Electrical & Computer Engineering.
