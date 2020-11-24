@@ -6,7 +6,7 @@ https://math.nist.gov/MatrixMarket/mmio-c.html
 
 ## **2 Preliminaries**
 The files that pertain to the preliminaries part of the exercise are
-**main.c**, **main_openmp** and **main_cilk**. Choose the appropriate 
+**main.c**, **main_openmp.c** and **main_cilk.c**. Choose the appropriate 
 matrix by giving it as an argument to main(), as follows.
 
 ```
@@ -16,11 +16,11 @@ matrix by giving it as an argument to main(), as follows.
 ```
 ## **3 Main part**
 The files that pertain to the main part of the exercise are **make_graph.c**
-**main3.c**, **main3_openmp**, **main3_cilk** and **main3_thread**.
+**main3.c**, **main3_openmp.c**, **main3_cilk.c** and **main3_thread.c**.
 
-It's vital that the **make_graph** file is run first so that a *graph.mtx*
+It's vital that the **make_graph.c** file is run first so that a *graph.mtx*
 file is created. The remaining programs use that as their input.
-The **make_graph** works like the previous ones, as follows.
+The **make_graph.c** works like the previous ones, as follows.
 ```
 ./make_graph matrix.mtx
 ```
